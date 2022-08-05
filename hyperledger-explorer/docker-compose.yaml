@@ -9,7 +9,7 @@ volumes:
 networks:
   mynetwork.com:
     external:
-      name: net_basic
+      name: fabric-test
 
 services:
 
@@ -48,7 +48,7 @@ services:
     volumes:
       - ./config.json:/opt/explorer/app/platform/fabric/config.json
       - ./connection-profile:/opt/explorer/app/platform/fabric/connection-profile
-      - /home/bstudent/fabric-samples/basic-network/crypto-config:/tmp/crypto
+      - /home/bstudent/fabric-samples/test-network/organizations:/tmp/crypto
       - walletstore:/opt/explorer/wallet
     ports:
       - 8080:8080
