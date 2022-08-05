@@ -9,7 +9,7 @@ volumes:
 networks:
   mynetwork.com:
     external:
-      name: fabric-test
+      name: fabric_test
 
 services:
 
