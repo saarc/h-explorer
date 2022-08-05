@@ -33,7 +33,7 @@
 			},
 			"peers": ["peer0.org1.example.com"],
 			"signedCert": {
-				"path": "/tmp/crypto/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/User1@cert.pem"
+				"path": "/tmp/crypto/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/cert.pem"
 			}
 		}
 	},
